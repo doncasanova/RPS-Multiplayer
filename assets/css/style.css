@@ -3,5 +3,16 @@
     color:white;
     background-color: black;
     height: 300px;
-    border: 2px, black;
+    border: 10px, yellow;
+    text-align: center;
+    font-size: 50px;
+}
+.chatBox{
+    text-align: left;
+    font-size: 50px;
+}
+.playerOneName{
+    text-align: center;
+    font-size: 15px;
+
 }
