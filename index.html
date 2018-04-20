@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissors</title>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Firebase Reference -->
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+
+</head>
+
+<body>
+
+
+
+    <br>
+
+    <!-- Jumbotron Title -->
+    <div class="jumbotron">
+        <h1 class="text-center">Rock Paper Scissors</h1>
+    </div>
+
+    <form>
+        <div class="form-row align-items-center justify-content-center">
+            <div class="col-sm-3 my-1">
+                <label class="sr-only" for="inlineFormInputName">Don</label>
+                <input type="text" class="form-control" id="inlineFormInputName" placeholder="Jane Doe">
+            </div>
+            <div class="col-auto my-1">
+                <button id = "startOfgame" type="submit" class="btn btn-primary">Start</button>
+            </div>
+        </div>
+    </form>
+    <!-- Current Product -->
+
+    <div class="container">
+        <div class="row">
+            <div id = "playerOne" class="col-sm playerArea border border-dark mr-1 " style="height: 200px;">
+                player one
+            </div>
+            <div id "gameUpdates" class="col-sm playerArea border border-dark" style="height: 200px;">
+                game updates
+            </div>
+            <div id = "playerTwo" class="col-sm playerArea border border-dark ml-1" style="height: 200px;">
+                player two
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div style="height: 30px;"> </div>
+        <div class="row justify-content-center">
+            <div class="col-sm-4 playerArea border border-dark mr-1 " style="height: 120px;">
+                chat box
+            </div>
+        </div>
+    </div>
+    <form>
+        <div class="form-row align-items-center justify-content-center">
+            <div class="col-sm-3 my-1">
+                <label class="sr-only" for="inlineFormInputName">Don</label>
+                <input type="text" class="form-control" id="inlineFormInputName" placeholder="start you conversation">
+            </div>
+            <div class="col-auto my-1">
+                <button id = "coversation" type="submit" class="btn btn-primary">Enter</button>
+            </div>
+        </div>
+    </form>
+
+
+
+
+    <!-- JavaScript -->
+    <script src="assets\javascript\app.js"></script>
+
+</body>
+
+</html>
