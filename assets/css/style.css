@@ -1,18 +1,56 @@
 
+.jumbotron{
+    color:white;
+    background-color: black;
+    /* height: 300px; */
+    border-radius: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
 .playerArea{
     color:white;
     background-color: black;
     height: 300px;
-    border: 10px, yellow;
+    border-radius: 20px;
     text-align: center;
-    font-size: 50px;
+    font-size: 18px;
 }
 .chatBox{
     text-align: left;
-    font-size: 50px;
+    font-size: 18px;
 }
 .playerOneName{
     text-align: center;
     font-size: 15px;
 
+}
+.playerOne{
+    text-align: center;
+    font-size: 18px;
+
+}
+.buttonStyle{
+    color:white;
+    background-color: black;
+}
+
+.formStyle{
+    color:white;
+    background-color: black;
+}
+.rockOne:hover { 
+    background-color: white;
+    color: black;
+}
+.paperOne:hover { 
+    background-color: white;
+    color: black;
+}
+.scissorsOne:hover { 
+    background-color: white;
+    color: black;
+}
+.pickOne{
+    color: white;
 }
